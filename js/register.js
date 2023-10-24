@@ -4,13 +4,16 @@ let button = document
 function handleregisterclick() {
   let emailInput = document.getElementById("emailInput").value;
   let passwordInput = document.getElementById("passwordInput").value;
-  if ((emailInput = "")) {
+  if (emailInput == "") {
     alert("email required");
-  } else if ((passwordInput = "")) {
+  } else if (passwordInput == "") {
     alert("password required");
   } else {
-    window.location.href = "http://127.0.0.1:5500/registerdsuccssfully.html";
-
-    // alert("registred!!");
+    let newUser = { emailInput: emailInput, passwordInput: passwordInput };
+    let user = JSON.parse(localStorage.getItem("userinfo"));
+    if (user == null) user = [];
+    user.push(newUser);
+    localStorage.setItem("userinfo", JSON.stringify(user));
+    window.location.href = "./registerdsuccssfully.html";
   }
 }

@@ -8,6 +8,18 @@ function handleloginclick() {
   } else if (passwordInput == "") {
     alert("Password is required");
   } else {
-    alert("Logging in..");
+    let users = JSON.parse(localStorage.getItem("userinfo"));
+    function filterByUsername(user) {
+      if (user.emailInput == emailInput && user.passwordInput == passwordInput)
+        return true;
+      else return false;
+    }
+
+    let result = users.filter(filterByUsername);
+
+    if (result.length == 0) alert("Incorrect password/username");
+    else {
+      window.location.href = "./index.html";
+    }
   }
 }
