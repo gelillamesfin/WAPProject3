@@ -9,6 +9,8 @@ function handleregisterclick() {
   } else if ((passwordInput = "")) {
     alert("password required");
   } else {
-    alert("registred!!");
+    window.location.href = "http://127.0.0.1:5500/registerdsuccssfully.html";
+
+    // alert("registred!!");
   }
 }

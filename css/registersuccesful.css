@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.center {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.image2 {
+  padding-left: 45px;
+}
+.registersuccesful {
+  padding-top: 10px;
+  font-size: 35px;
+}
+.check {
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 10%;
+}
+.activate {
+  padding-left: 100px;
+}
+.gif {
+  text-align: center;
+}
+
+.logo {
+  height: 10vh;
+  padding: 1rem;
+}
