@@ -10,13 +10,13 @@ function populateProducts() {
       id: 2,
       name: "Gucci Bag 2",
       price: 3000,
-      img: "../img/white-bag.jpeg",
+      img: "../img/red.webp",
     },
     {
       id: 3,
       name: "Gucci Bag 3",
       price: 1500,
-      img: "../img/pinkpurse.png",
+      img: "../img/green.avif",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ function populateProducts() {
       id: 6,
       name: "Gucci Bag 6",
       price: 2500,
-      img: "../img/pinkpurse.png",
+      img: "../img/hey.jpeg",
     },
     {
       id: 7,
@@ -46,7 +46,7 @@ function populateProducts() {
       id: 8,
       name: "Gucci Bag 8",
       price: 3800,
-      img: "../img/kevinhart.gucci.jpeg",
+      img: "../img/young.avif",
     },
   ];
 
