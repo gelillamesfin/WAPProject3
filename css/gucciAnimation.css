@@ -1,13 +1,16 @@
 .gucci_animation {
+  padding: 20px;
   font-size: 2em;
   position: absolute;
-  top: 10%;
+  top: 50%;
   left: 50%;
-  transform: translate(-60%, -40%);
+  /* bottom: 40%; */
+  transform: translate(-50%, -50%);
 }
 
 h3:hover {
   animation: guccianimation 1s linear;
+  padding-top: 10px;
 }
 
 @keyframes guccianimation {
