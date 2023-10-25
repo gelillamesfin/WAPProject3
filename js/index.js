@@ -46,7 +46,7 @@ function populateProducts() {
       id: 8,
       name: "Gucci Bag 8",
       price: 3800,
-      img: "../img/young.avif",
+      img: "../img/BlackMen.png",
     },
   ];
 
