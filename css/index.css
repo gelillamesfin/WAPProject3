@@ -17,12 +17,13 @@
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+
   gap: 32px;
 }
 
-.product-card-container {
-  background: red;
-}
+/* .product-card-container {
+
+} */
 
 .product-card-container > img {
   width: 200px;
