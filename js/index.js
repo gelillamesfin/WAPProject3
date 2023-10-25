@@ -68,10 +68,12 @@ function addItemToCart(button) {
     }
   }
 
-  let cartItem = JSON.parse(localStorage.getItem("Carts"));
-  if (cartItem == null) cartItem = [];
-  cartItem.push(product);
-  localStorage.setItem("Carts", JSON.stringify(cartItem));
+  if (product.length != 0) {
+    let cartItem = JSON.parse(localStorage.getItem("Carts"));
+    if (cartItem == null) cartItem = [];
+    cartItem.push(product[0]);
+    localStorage.setItem("Carts", JSON.stringify(cartItem));
+  }
 }
 
 function loadAllProducts() {
