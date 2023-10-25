@@ -1,4 +1,6 @@
-document.getElementById("button").addEventListener("click", handleloginclick);
+document
+  .getElementById("login-btn")
+  .addEventListener("click", handleloginclick);
 function handleloginclick() {
   let emailInput = document.getElementById("emailInput").value;
   let passwordInput = document.getElementById("passwordInput").value;
@@ -23,3 +25,7 @@ function handleloginclick() {
     }
   }
 }
+
+document.getElementById("register-btn").addEventListener("click", () => {
+  window.location.href = "./register.html";
+});

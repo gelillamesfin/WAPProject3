@@ -45,13 +45,14 @@
   justify-content: center;
   padding-top: 50px;
 }
-#button {
+.button {
   border: 1px black solid;
   width: 20%;
   height: 50px;
   background-color: black;
   color: white;
 }
+
 #emailInput,
 #passwordInput {
   border: 1px solid;

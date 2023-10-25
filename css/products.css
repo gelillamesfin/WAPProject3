@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#products-container {
+  border: 1px solid;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#row {
+  padding-top: 1rem;
+}
+
+#search-container {
+  height: 4rem;
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-bar {
+  width: 50%;
+}

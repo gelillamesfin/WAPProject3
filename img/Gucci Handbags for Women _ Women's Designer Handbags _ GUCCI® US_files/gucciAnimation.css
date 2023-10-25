@@ -1,0 +1,47 @@
+.gucci_animation {
+  padding: 20px;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bottom: 40%; */
+  transform: translate(-50%, -50%);
+}
+
+h3:hover {
+  animation: guccianimation 1s linear;
+  padding-top: 10px;
+}
+
+@keyframes guccianimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+    font-size: 4em;
+  }
+  100% {
+    transform: rotate(360deg);
+    font-size: 2em;
+  }
+}
+
+/* .guccibutton {
+  width: 100px;
+  height: 100px;
+  transition: 0.3 ease;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.guccibutton:hover {
+  transform: scale(0.6);
+  -webkit-transform: scale(1s);
+  -ms-tranform: scale(1);
+  width: 100px;
+  height: 100px;
+
+  rotate: 360deg;
+  /* animation-name: GucciHeader; */
+/* animation-duration: 4s;
+} */

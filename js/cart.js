@@ -21,7 +21,7 @@ function getFromCart() {
   let product = document.getElementById("products");
   for (let i = 0; i < itemBox.length; i++) {
     product.innerHTML += `
-  <div class="card" style="padding: 1rem" id=${itemBox[i].id}>
+  <div class="card" style="padding: 1rem; margin:1rem" id=${itemBox[i].id}>
   <div class="card-body d-flex justify-content-between">
     <div class="d-flex" style="gap: 1rem">
       <div>

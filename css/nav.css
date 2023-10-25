@@ -1,0 +1,31 @@
+.logo {
+  width: 30px;
+}
+
+.logo:hover {
+  background-color: gray;
+}
+
+#navbar {
+  background-color: #f9f5f6;
+  border: 0.5rem solid;
+  height: 5rem;
+}
+
+@keyframes mymove {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+#mybag {
+  animation: mymove 5s infinite;
+}
+
+.leftimages {
+  display: flex;
+  gap: 20px;
+}
+
+body {
+  padding-top: 6rem;
+}

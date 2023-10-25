@@ -8,14 +8,6 @@
   height: 350px;
   object-fit: cover;
 }
-@keyframes mymove {
-  50% {
-    transform: rotate(360deg);
-  }
-}
-#mybag {
-  animation: mymove 5s infinite;
-}
 
 #row {
   width: 100%;
@@ -51,17 +43,6 @@
   transition: 0.5s all;
 }
 
-.bd-example {
-  padding-top: 5.7rem;
-}
-
-#navbar {
-  background-color: #f9f5f6;
-}
 #footer {
   width: 100vw;
-}
-.leftimages {
-  display: flex;
-  gap: 20px;
 }
