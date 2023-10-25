@@ -82,16 +82,16 @@ function loadAllProducts() {
   let container = document.getElementById("row");
   for (let i = 0; i < allProducts.length; i++) {
     container.innerHTML += ` 
-    <div class="product-card-container" id=${allProducts[i].id}>
+    <div class="product-card-container" id=${allProducts[i].id} >
       <img src=${allProducts[i].img} height="200px">
       <div>
         <h5> $ ${allProducts[i].price}</h5>
         <p>${allProducts[i].name}</p>
       </div>
-
-      <button id=${
+      <button type="button" id=${
         allProducts[i].id
-      } onclick=${"addItemToCart(this)"}> Add to cart</button>
+      } onclick=${"addItemToCart(this)"} class="btn btn-outline-dark">Add to cart</button>
+      
     </div>
     
       `;

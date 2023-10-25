@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 .carousel img {
   max-width: 100%;
   height: 350px;
@@ -31,6 +36,28 @@
   object-fit: cover;
 }
 
+.product-card-container:hover {
+  padding: 0.3rem;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  transition: 0.5s all;
+}
+
+.product-card-container:hover img {
+  height: 220px;
+  width: 200px;
+  height: 200px;
+  transition: 0.5s all;
+}
+
 .bd-example {
   padding-top: 5.7rem;
+}
+
+#navbar {
+  background-color: #f9f5f6;
+}
+#footer {
+  width: 100vw;
 }
