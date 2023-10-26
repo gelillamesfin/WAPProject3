@@ -5,10 +5,29 @@
 }
 #main-container {
   height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
+
 #left-view {
   width: 75%;
 }
 #right-view {
   width: 25%;
+}
+
+@media (max-width: 500px) {
+  .card-body {
+    flex-direction: column;
+  }
+  .wrap {
+    flex-direction: column;
+  }
+
+  #main-container {
+    flex-direction: column;
+  }
+  #right-view {
+    width: 100%;
+  }
 }

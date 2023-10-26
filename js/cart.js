@@ -23,7 +23,7 @@ function getFromCart() {
     product.innerHTML += `
   <div class="card" style="padding: 1rem; margin:1rem" id=${itemBox[i].id}>
   <div class="card-body d-flex justify-content-between">
-    <div class="d-flex" style="gap: 1rem">
+    <div class="d-flex wrap" style="gap: 1rem">
       <div>
         <img
           src="${itemBox[i].img}"
