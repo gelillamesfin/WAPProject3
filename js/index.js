@@ -4,7 +4,7 @@ function populateProducts() {
       id: 1,
       name: "Gucci Bag 1",
       price: 1800,
-      img: "../img/white-bag.jpeg",
+      img: "./blob/main/img/white-bag.jpeg",
     },
     {
       id: 2,
